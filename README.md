@@ -96,6 +96,18 @@ We introduce **PolySent-X**, which includes:
 
 ---
 
+📌 Contributions
+Topic filtering for noise reduction
+Fine-grained emotion modeling
+Temporal sentiment analysis
+Multi-horizon prediction framework
+
+🔮 Future Work
+Use full articles instead of headlines
+Apply deep learning models (LSTM, Transformers)
+Include macroeconomic data
+Expand to more industries
+
 ## ▶️ How to Run
 
 ```bash
