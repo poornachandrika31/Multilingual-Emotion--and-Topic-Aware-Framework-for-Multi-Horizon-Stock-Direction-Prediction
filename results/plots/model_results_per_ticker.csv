@@ -1,0 +1,253 @@
+Ticker,Target,Experiment,Model,Accuracy,F1,Balanced Accuracy
+AAPL,label_1d,Baseline,LogisticRegression,0.5536,0.7126,0.5
+AAPL,label_1d,Baseline,RandomForest,0.4643,0.5946,0.4348
+AAPL,label_1d,Baseline,GradientBoosting,0.4643,0.5946,0.4348
+AAPL,label_1d,Topic Only,LogisticRegression,0.4643,0.5588,0.4465
+AAPL,label_1d,Topic Only,RandomForest,0.5714,0.6667,0.5471
+AAPL,label_1d,Topic Only,GradientBoosting,0.5893,0.6667,0.571
+AAPL,label_1d,Emotion Only,LogisticRegression,0.5536,0.6377,0.5348
+AAPL,label_1d,Emotion Only,RandomForest,0.4464,0.5507,0.4265
+AAPL,label_1d,Emotion Only,GradientBoosting,0.5,0.6,0.4787
+AAPL,label_1d,Topic + Emotion,LogisticRegression,0.5179,0.6087,0.4987
+AAPL,label_1d,Topic + Emotion,RandomForest,0.4643,0.5714,0.4426
+AAPL,label_1d,Topic + Emotion,GradientBoosting,0.5179,0.64,0.4871
+AAPL,label_3d,Baseline,LogisticRegression,0.4286,0.4483,0.4297
+AAPL,label_3d,Baseline,RandomForest,0.4286,0.4667,0.4258
+AAPL,label_3d,Baseline,GradientBoosting,0.4286,0.4667,0.4258
+AAPL,label_3d,Topic Only,LogisticRegression,0.5536,0.7126,0.5
+AAPL,label_3d,Topic Only,RandomForest,0.5714,0.6667,0.5471
+AAPL,label_3d,Topic Only,GradientBoosting,0.5179,0.5846,0.5065
+AAPL,label_3d,Emotion Only,LogisticRegression,0.5179,0.64,0.4871
+AAPL,label_3d,Emotion Only,RandomForest,0.4643,0.5588,0.4465
+AAPL,label_3d,Emotion Only,GradientBoosting,0.4643,0.5455,0.4503
+AAPL,label_3d,Topic + Emotion,LogisticRegression,0.3929,0.4138,0.3935
+AAPL,label_3d,Topic + Emotion,RandomForest,0.4286,0.5429,0.4065
+AAPL,label_3d,Topic + Emotion,GradientBoosting,0.5,0.5882,0.4826
+AAPL,label_5d,Baseline,LogisticRegression,0.5,0.6667,0.5
+AAPL,label_5d,Baseline,RandomForest,0.5,0.6585,0.5
+AAPL,label_5d,Baseline,GradientBoosting,0.5,0.6585,0.5
+AAPL,label_5d,Topic Only,LogisticRegression,0.5,0.6667,0.5
+AAPL,label_5d,Topic Only,RandomForest,0.5536,0.6479,0.5536
+AAPL,label_5d,Topic Only,GradientBoosting,0.4821,0.5538,0.4821
+AAPL,label_5d,Emotion Only,LogisticRegression,0.5179,0.64,0.5179
+AAPL,label_5d,Emotion Only,RandomForest,0.4643,0.5455,0.4643
+AAPL,label_5d,Emotion Only,GradientBoosting,0.4821,0.5672,0.4821
+AAPL,label_5d,Topic + Emotion,LogisticRegression,0.5357,0.6486,0.5357
+AAPL,label_5d,Topic + Emotion,RandomForest,0.5,0.6,0.5
+AAPL,label_5d,Topic + Emotion,GradientBoosting,0.5179,0.597,0.5179
+AMZN,label_1d,Baseline,LogisticRegression,0.5652,0.0,0.5
+AMZN,label_1d,Baseline,RandomForest,0.5217,0.2143,0.4788
+AMZN,label_1d,Baseline,GradientBoosting,0.5217,0.2143,0.4788
+AMZN,label_1d,Topic Only,LogisticRegression,0.5652,0.0,0.5
+AMZN,label_1d,Topic Only,RandomForest,0.6087,0.5263,0.5962
+AMZN,label_1d,Topic Only,GradientBoosting,0.6522,0.6364,0.6577
+AMZN,label_1d,Emotion Only,LogisticRegression,0.5435,0.2222,0.4981
+AMZN,label_1d,Emotion Only,RandomForest,0.4565,0.359,0.4442
+AMZN,label_1d,Emotion Only,GradientBoosting,0.4348,0.35,0.425
+AMZN,label_1d,Topic + Emotion,LogisticRegression,0.3913,0.0667,0.3519
+AMZN,label_1d,Topic + Emotion,RandomForest,0.4783,0.3333,0.4577
+AMZN,label_1d,Topic + Emotion,GradientBoosting,0.3913,0.2222,0.3692
+AMZN,label_3d,Baseline,LogisticRegression,0.5,0.5306,0.5173
+AMZN,label_3d,Baseline,RandomForest,0.4783,0.0,0.4231
+AMZN,label_3d,Baseline,GradientBoosting,0.4783,0.0,0.4231
+AMZN,label_3d,Topic Only,LogisticRegression,0.5652,0.0,0.5
+AMZN,label_3d,Topic Only,RandomForest,0.6304,0.6531,0.65
+AMZN,label_3d,Topic Only,GradientBoosting,0.587,0.6122,0.6058
+AMZN,label_3d,Emotion Only,LogisticRegression,0.587,0.4571,0.5654
+AMZN,label_3d,Emotion Only,RandomForest,0.587,0.5366,0.5827
+AMZN,label_3d,Emotion Only,GradientBoosting,0.4783,0.4,0.4692
+AMZN,label_3d,Topic + Emotion,LogisticRegression,0.5435,0.5116,0.5442
+AMZN,label_3d,Topic + Emotion,RandomForest,0.5217,0.4762,0.5192
+AMZN,label_3d,Topic + Emotion,GradientBoosting,0.5217,0.4762,0.5192
+AMZN,label_5d,Baseline,LogisticRegression,0.5,0.5306,0.5173
+AMZN,label_5d,Baseline,RandomForest,0.4565,0.2424,0.4269
+AMZN,label_5d,Baseline,GradientBoosting,0.4565,0.2424,0.4269
+AMZN,label_5d,Topic Only,LogisticRegression,0.6522,0.5556,0.6346
+AMZN,label_5d,Topic Only,RandomForest,0.6304,0.6047,0.6327
+AMZN,label_5d,Topic Only,GradientBoosting,0.6957,0.6818,0.7019
+AMZN,label_5d,Emotion Only,LogisticRegression,0.5435,0.5116,0.5442
+AMZN,label_5d,Emotion Only,RandomForest,0.5435,0.5333,0.55
+AMZN,label_5d,Emotion Only,GradientBoosting,0.4348,0.381,0.4308
+AMZN,label_5d,Topic + Emotion,LogisticRegression,0.4348,0.5,0.4596
+AMZN,label_5d,Topic + Emotion,RandomForest,0.5435,0.5333,0.55
+AMZN,label_5d,Topic + Emotion,GradientBoosting,0.413,0.3415,0.4058
+GOOGL,label_1d,Baseline,LogisticRegression,0.4762,0.6452,0.5
+GOOGL,label_1d,Baseline,RandomForest,0.4762,0.6452,0.5
+GOOGL,label_1d,Baseline,GradientBoosting,0.4762,0.6452,0.5
+GOOGL,label_1d,Topic Only,LogisticRegression,0.4762,0.6452,0.5
+GOOGL,label_1d,Topic Only,RandomForest,0.5556,0.641,0.5682
+GOOGL,label_1d,Topic Only,GradientBoosting,0.5238,0.6154,0.5364
+GOOGL,label_1d,Emotion Only,LogisticRegression,0.5079,0.6437,0.5273
+GOOGL,label_1d,Emotion Only,RandomForest,0.5714,0.6747,0.5879
+GOOGL,label_1d,Emotion Only,GradientBoosting,0.5556,0.5882,0.5606
+GOOGL,label_1d,Topic + Emotion,LogisticRegression,0.4762,0.6292,0.497
+GOOGL,label_1d,Topic + Emotion,RandomForest,0.5714,0.6747,0.5879
+GOOGL,label_1d,Topic + Emotion,GradientBoosting,0.4921,0.5556,0.5
+GOOGL,label_3d,Baseline,LogisticRegression,0.5079,0.6737,0.5
+GOOGL,label_3d,Baseline,RandomForest,0.5079,0.6737,0.5
+GOOGL,label_3d,Baseline,GradientBoosting,0.5079,0.6737,0.5
+GOOGL,label_3d,Topic Only,LogisticRegression,0.5079,0.6737,0.5
+GOOGL,label_3d,Topic Only,RandomForest,0.4762,0.6292,0.4698
+GOOGL,label_3d,Topic Only,GradientBoosting,0.4603,0.5854,0.4556
+GOOGL,label_3d,Emotion Only,LogisticRegression,0.4603,0.6136,0.4541
+GOOGL,label_3d,Emotion Only,RandomForest,0.5873,0.7045,0.5811
+GOOGL,label_3d,Emotion Only,GradientBoosting,0.5873,0.675,0.5832
+GOOGL,label_3d,Topic + Emotion,LogisticRegression,0.5079,0.6667,0.5005
+GOOGL,label_3d,Topic + Emotion,RandomForest,0.5556,0.6889,0.5489
+GOOGL,label_3d,Topic + Emotion,GradientBoosting,0.5397,0.6506,0.5348
+GOOGL,label_5d,Baseline,LogisticRegression,0.4603,0.6304,0.5
+GOOGL,label_5d,Baseline,RandomForest,0.4603,0.6304,0.5
+GOOGL,label_5d,Baseline,GradientBoosting,0.4603,0.6304,0.5
+GOOGL,label_5d,Topic Only,LogisticRegression,0.4603,0.6304,0.5
+GOOGL,label_5d,Topic Only,RandomForest,0.5238,0.6341,0.5512
+GOOGL,label_5d,Topic Only,GradientBoosting,0.5238,0.6154,0.5461
+GOOGL,label_5d,Emotion Only,LogisticRegression,0.381,0.5412,0.4113
+GOOGL,label_5d,Emotion Only,RandomForest,0.4603,0.5854,0.4873
+GOOGL,label_5d,Emotion Only,GradientBoosting,0.5397,0.6133,0.5583
+GOOGL,label_5d,Topic + Emotion,LogisticRegression,0.381,0.5412,0.4113
+GOOGL,label_5d,Topic + Emotion,RandomForest,0.4127,0.5647,0.4432
+GOOGL,label_5d,Topic + Emotion,GradientBoosting,0.4762,0.5714,0.497
+META,label_1d,Baseline,LogisticRegression,0.5116,0.0,0.5
+META,label_1d,Baseline,RandomForest,0.5116,0.4878,0.5108
+META,label_1d,Baseline,GradientBoosting,0.5116,0.4878,0.5108
+META,label_1d,Topic Only,LogisticRegression,0.4651,0.2069,0.4578
+META,label_1d,Topic Only,RandomForest,0.3721,0.3415,0.3712
+META,label_1d,Topic Only,GradientBoosting,0.4419,0.4,0.4405
+META,label_1d,Emotion Only,LogisticRegression,0.4651,0.303,0.46
+META,label_1d,Emotion Only,RandomForest,0.5349,0.5652,0.5368
+META,label_1d,Emotion Only,GradientBoosting,0.4884,0.5,0.4892
+META,label_1d,Topic + Emotion,LogisticRegression,0.4884,0.3125,0.4827
+META,label_1d,Topic + Emotion,RandomForest,0.5349,0.5455,0.5357
+META,label_1d,Topic + Emotion,GradientBoosting,0.4419,0.4545,0.4426
+META,label_3d,Baseline,LogisticRegression,0.6512,0.4444,0.5995
+META,label_3d,Baseline,RandomForest,0.5349,0.5,0.5441
+META,label_3d,Baseline,GradientBoosting,0.5349,0.5,0.5441
+META,label_3d,Topic Only,LogisticRegression,0.5581,0.3448,0.5124
+META,label_3d,Topic Only,RandomForest,0.5349,0.5,0.5441
+META,label_3d,Topic Only,GradientBoosting,0.5581,0.4571,0.543
+META,label_3d,Emotion Only,LogisticRegression,0.5581,0.3871,0.5226
+META,label_3d,Emotion Only,RandomForest,0.5349,0.4118,0.5136
+META,label_3d,Emotion Only,GradientBoosting,0.4651,0.4103,0.4661
+META,label_3d,Topic + Emotion,LogisticRegression,0.5349,0.2857,0.483
+META,label_3d,Topic + Emotion,RandomForest,0.5581,0.2963,0.5023
+META,label_3d,Topic + Emotion,GradientBoosting,0.4651,0.3784,0.4559
+META,label_5d,Baseline,LogisticRegression,0.4651,0.4651,0.4674
+META,label_5d,Baseline,RandomForest,0.4651,0.4651,0.4674
+META,label_5d,Baseline,GradientBoosting,0.4651,0.4651,0.4674
+META,label_5d,Topic Only,LogisticRegression,0.4651,0.6349,0.5
+META,label_5d,Topic Only,RandomForest,0.4651,0.4651,0.4674
+META,label_5d,Topic Only,GradientBoosting,0.4884,0.4762,0.4891
+META,label_5d,Emotion Only,LogisticRegression,0.4884,0.6071,0.512
+META,label_5d,Emotion Only,RandomForest,0.6279,0.6667,0.6391
+META,label_5d,Emotion Only,GradientBoosting,0.5349,0.6,0.5489
+META,label_5d,Topic + Emotion,LogisticRegression,0.5349,0.5,0.5326
+META,label_5d,Topic + Emotion,RandomForest,0.5581,0.5581,0.5609
+META,label_5d,Topic + Emotion,GradientBoosting,0.5581,0.5366,0.5576
+MSFT,label_1d,Baseline,LogisticRegression,0.5349,0.4444,0.523
+MSFT,label_1d,Baseline,RandomForest,0.4651,0.623,0.5208
+MSFT,label_1d,Baseline,GradientBoosting,0.4651,0.623,0.5208
+MSFT,label_1d,Topic Only,LogisticRegression,0.5116,0.5882,0.5406
+MSFT,label_1d,Topic Only,RandomForest,0.4884,0.4211,0.4814
+MSFT,label_1d,Topic Only,GradientBoosting,0.3953,0.381,0.398
+MSFT,label_1d,Emotion Only,LogisticRegression,0.4884,0.5,0.4978
+MSFT,label_1d,Emotion Only,RandomForest,0.5581,0.4242,0.5384
+MSFT,label_1d,Emotion Only,GradientBoosting,0.5349,0.5,0.534
+MSFT,label_1d,Topic + Emotion,LogisticRegression,0.4884,0.4211,0.4814
+MSFT,label_1d,Topic + Emotion,RandomForest,0.5581,0.4571,0.5439
+MSFT,label_1d,Topic + Emotion,GradientBoosting,0.5116,0.4615,0.5077
+MSFT,label_3d,Baseline,LogisticRegression,0.5116,0.5714,0.6095
+MSFT,label_3d,Baseline,RandomForest,0.3721,0.5263,0.5179
+MSFT,label_3d,Baseline,GradientBoosting,0.3721,0.5263,0.5179
+MSFT,label_3d,Topic Only,LogisticRegression,0.3488,0.5172,0.5
+MSFT,label_3d,Topic Only,RandomForest,0.5349,0.4737,0.55
+MSFT,label_3d,Topic Only,GradientBoosting,0.5581,0.4865,0.5679
+MSFT,label_3d,Emotion Only,LogisticRegression,0.4186,0.5098,0.5226
+MSFT,label_3d,Emotion Only,RandomForest,0.4419,0.4286,0.4786
+MSFT,label_3d,Emotion Only,GradientBoosting,0.4651,0.4651,0.5119
+MSFT,label_3d,Topic + Emotion,LogisticRegression,0.4884,0.5,0.5452
+MSFT,label_3d,Topic + Emotion,RandomForest,0.5116,0.5116,0.5631
+MSFT,label_3d,Topic + Emotion,GradientBoosting,0.4884,0.5217,0.5607
+MSFT,label_5d,Baseline,LogisticRegression,0.4651,0.5818,0.5244
+MSFT,label_5d,Baseline,RandomForest,0.4419,0.6,0.52
+MSFT,label_5d,Baseline,GradientBoosting,0.4419,0.6,0.52
+MSFT,label_5d,Topic Only,LogisticRegression,0.4186,0.5902,0.5
+MSFT,label_5d,Topic Only,RandomForest,0.5349,0.5652,0.5611
+MSFT,label_5d,Topic Only,GradientBoosting,0.4651,0.439,0.47
+MSFT,label_5d,Emotion Only,LogisticRegression,0.3488,0.5172,0.4167
+MSFT,label_5d,Emotion Only,RandomForest,0.4884,0.6207,0.56
+MSFT,label_5d,Emotion Only,GradientBoosting,0.3256,0.4082,0.3578
+MSFT,label_5d,Topic + Emotion,LogisticRegression,0.5349,0.6154,0.5844
+MSFT,label_5d,Topic + Emotion,RandomForest,0.5116,0.6316,0.58
+MSFT,label_5d,Topic + Emotion,GradientBoosting,0.3256,0.4314,0.3656
+NVDA,label_1d,Baseline,LogisticRegression,0.4615,0.4324,0.4632
+NVDA,label_1d,Baseline,RandomForest,0.5128,0.5366,0.5118
+NVDA,label_1d,Baseline,GradientBoosting,0.5128,0.5366,0.5118
+NVDA,label_1d,Topic Only,LogisticRegression,0.3846,0.25,0.3895
+NVDA,label_1d,Topic Only,RandomForest,0.5641,0.5143,0.5671
+NVDA,label_1d,Topic Only,GradientBoosting,0.5385,0.5263,0.5395
+NVDA,label_1d,Emotion Only,LogisticRegression,0.5385,0.55,0.5382
+NVDA,label_1d,Emotion Only,RandomForest,0.5385,0.4375,0.5434
+NVDA,label_1d,Emotion Only,GradientBoosting,0.5385,0.5263,0.5395
+NVDA,label_1d,Topic + Emotion,LogisticRegression,0.5128,0.4571,0.5158
+NVDA,label_1d,Topic + Emotion,RandomForest,0.5385,0.4706,0.5421
+NVDA,label_1d,Topic + Emotion,GradientBoosting,0.5641,0.5143,0.5671
+NVDA,label_3d,Baseline,LogisticRegression,0.5897,0.5789,0.5952
+NVDA,label_3d,Baseline,RandomForest,0.4615,0.5333,0.4524
+NVDA,label_3d,Baseline,GradientBoosting,0.4615,0.5333,0.4524
+NVDA,label_3d,Topic Only,LogisticRegression,0.5641,0.6047,0.5595
+NVDA,label_3d,Topic Only,RandomForest,0.4615,0.4878,0.4603
+NVDA,label_3d,Topic Only,GradientBoosting,0.4872,0.5455,0.4802
+NVDA,label_3d,Emotion Only,LogisticRegression,0.5128,0.6275,0.4921
+NVDA,label_3d,Emotion Only,RandomForest,0.4359,0.5217,0.4246
+NVDA,label_3d,Emotion Only,GradientBoosting,0.4103,0.4651,0.4048
+NVDA,label_3d,Topic + Emotion,LogisticRegression,0.4359,0.5217,0.4246
+NVDA,label_3d,Topic + Emotion,RandomForest,0.5128,0.5957,0.5
+NVDA,label_3d,Topic + Emotion,GradientBoosting,0.4359,0.5217,0.4246
+NVDA,label_5d,Baseline,LogisticRegression,0.5897,0.619,0.5992
+NVDA,label_5d,Baseline,RandomForest,0.5897,0.619,0.5992
+NVDA,label_5d,Baseline,GradientBoosting,0.5897,0.619,0.5992
+NVDA,label_5d,Topic Only,LogisticRegression,0.4872,0.6429,0.5238
+NVDA,label_5d,Topic Only,RandomForest,0.4872,0.5833,0.5079
+NVDA,label_5d,Topic Only,GradientBoosting,0.5641,0.6383,0.5833
+NVDA,label_5d,Emotion Only,LogisticRegression,0.4872,0.6,0.5119
+NVDA,label_5d,Emotion Only,RandomForest,0.4872,0.5652,0.504
+NVDA,label_5d,Emotion Only,GradientBoosting,0.5385,0.55,0.5437
+NVDA,label_5d,Topic + Emotion,LogisticRegression,0.5897,0.6364,0.6032
+NVDA,label_5d,Topic + Emotion,RandomForest,0.5641,0.6222,0.5794
+NVDA,label_5d,Topic + Emotion,GradientBoosting,0.6667,0.6977,0.6786
+TSLA,label_1d,Baseline,LogisticRegression,0.4737,0.6429,0.5
+TSLA,label_1d,Baseline,RandomForest,0.5263,0.5263,0.5278
+TSLA,label_1d,Baseline,GradientBoosting,0.5263,0.5263,0.5278
+TSLA,label_1d,Topic Only,LogisticRegression,0.4737,0.6429,0.5
+TSLA,label_1d,Topic Only,RandomForest,0.4211,0.4407,0.4241
+TSLA,label_1d,Topic Only,GradientBoosting,0.4035,0.4138,0.4056
+TSLA,label_1d,Emotion Only,LogisticRegression,0.5439,0.5,0.5407
+TSLA,label_1d,Emotion Only,RandomForest,0.5263,0.5091,0.5259
+TSLA,label_1d,Emotion Only,GradientBoosting,0.5965,0.5818,0.5963
+TSLA,label_1d,Topic + Emotion,LogisticRegression,0.5439,0.5357,0.5444
+TSLA,label_1d,Topic + Emotion,RandomForest,0.4737,0.5,0.4778
+TSLA,label_1d,Topic + Emotion,GradientBoosting,0.5789,0.52,0.5741
+TSLA,label_3d,Baseline,LogisticRegression,0.4561,0.4364,0.4727
+TSLA,label_3d,Baseline,RandomForest,0.4912,0.3556,0.4675
+TSLA,label_3d,Baseline,GradientBoosting,0.4912,0.3556,0.4675
+TSLA,label_3d,Topic Only,LogisticRegression,0.5088,0.125,0.4312
+TSLA,label_3d,Topic Only,RandomForest,0.4386,0.36,0.4331
+TSLA,label_3d,Topic Only,GradientBoosting,0.4912,0.3556,0.4675
+TSLA,label_3d,Emotion Only,LogisticRegression,0.5263,0.4,0.5045
+TSLA,label_3d,Emotion Only,RandomForest,0.386,0.3137,0.3818
+TSLA,label_3d,Emotion Only,GradientBoosting,0.5439,0.4583,0.5357
+TSLA,label_3d,Topic + Emotion,LogisticRegression,0.4386,0.36,0.4331
+TSLA,label_3d,Topic + Emotion,RandomForest,0.4211,0.3774,0.4273
+TSLA,label_3d,Topic + Emotion,GradientBoosting,0.386,0.2857,0.3734
+TSLA,label_5d,Baseline,LogisticRegression,0.3158,0.2909,0.3247
+TSLA,label_5d,Baseline,RandomForest,0.3509,0.1778,0.3195
+TSLA,label_5d,Baseline,GradientBoosting,0.3509,0.1778,0.3195
+TSLA,label_5d,Topic Only,LogisticRegression,0.4211,0.5479,0.5117
+TSLA,label_5d,Topic Only,RandomForest,0.5614,0.4681,0.55
+TSLA,label_5d,Topic Only,GradientBoosting,0.5614,0.4681,0.55
+TSLA,label_5d,Emotion Only,LogisticRegression,0.3684,0.25,0.3506
+TSLA,label_5d,Emotion Only,RandomForest,0.4035,0.2609,0.3792
+TSLA,label_5d,Emotion Only,GradientBoosting,0.4035,0.2917,0.3877
+TSLA,label_5d,Topic + Emotion,LogisticRegression,0.3333,0.2692,0.3305
+TSLA,label_5d,Topic + Emotion,RandomForest,0.3684,0.3077,0.3675
+TSLA,label_5d,Topic + Emotion,GradientBoosting,0.4035,0.32,0.3961

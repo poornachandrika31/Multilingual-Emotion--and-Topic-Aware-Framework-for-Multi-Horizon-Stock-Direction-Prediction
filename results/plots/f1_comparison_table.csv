@@ -1,0 +1,13 @@
+Target,Experiment,GradientBoosting,LogisticRegression,RandomForest
+label_1d,Baseline,0.6244,0.6081,0.6244
+label_1d,Emotion Only,0.4573,0.561,0.441
+label_1d,Topic + Emotion,0.4812,0.5553,0.4709
+label_1d,Topic Only,0.4985,0.6496,0.5104
+label_3d,Baseline,0.608,0.5931,0.6013
+label_3d,Emotion Only,0.4826,0.6019,0.4553
+label_3d,Topic + Emotion,0.4734,0.5553,0.4624
+label_3d,Topic Only,0.5275,0.6444,0.4528
+label_5d,Baseline,0.645,0.643,0.645
+label_5d,Emotion Only,0.5677,0.6189,0.6282
+label_5d,Topic + Emotion,0.5524,0.6044,0.6273
+label_5d,Topic Only,0.5646,0.6417,0.5747

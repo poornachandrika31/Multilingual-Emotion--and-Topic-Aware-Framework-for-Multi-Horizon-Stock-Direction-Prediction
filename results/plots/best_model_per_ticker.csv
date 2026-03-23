@@ -1,0 +1,8 @@
+Ticker,Model,Experiment,Target,Accuracy
+AAPL,GradientBoosting,Topic Only,label_1d,0.5893
+AMZN,GradientBoosting,Topic Only,label_5d,0.6957
+GOOGL,RandomForest,Emotion Only,label_3d,0.5873
+META,LogisticRegression,Baseline,label_3d,0.6512
+MSFT,RandomForest,Emotion Only,label_1d,0.5581
+NVDA,GradientBoosting,Topic + Emotion,label_5d,0.6667
+TSLA,GradientBoosting,Emotion Only,label_1d,0.5965

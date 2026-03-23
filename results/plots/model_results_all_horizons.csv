@@ -1,0 +1,37 @@
+Target,Experiment,Model,Accuracy,F1,Balanced Accuracy,Precision,Recall
+label_1d,Baseline,LogisticRegression,0.4957,0.6081,0.4948,0.4982,0.7803
+label_1d,Baseline,RandomForest,0.5188,0.6244,0.518,0.513,0.7977
+label_1d,Baseline,GradientBoosting,0.5188,0.6244,0.518,0.513,0.7977
+label_1d,Topic Only,LogisticRegression,0.4841,0.6496,0.4827,0.4925,0.9538
+label_1d,Topic Only,RandomForest,0.5217,0.5104,0.5218,0.5244,0.4971
+label_1d,Topic Only,GradientBoosting,0.5043,0.4985,0.5044,0.506,0.4913
+label_1d,Emotion Only,LogisticRegression,0.5101,0.561,0.5098,0.5094,0.6243
+label_1d,Emotion Only,RandomForest,0.4783,0.441,0.4785,0.4765,0.4104
+label_1d,Emotion Only,GradientBoosting,0.4841,0.4573,0.4842,0.4839,0.4335
+label_1d,Topic + Emotion,LogisticRegression,0.5217,0.5553,0.5215,0.5202,0.5954
+label_1d,Topic + Emotion,RandomForest,0.4986,0.4709,0.4987,0.5,0.4451
+label_1d,Topic + Emotion,GradientBoosting,0.4812,0.4812,0.4812,0.4826,0.4798
+label_3d,Baseline,LogisticRegression,0.487,0.5931,0.501,0.476,0.7866
+label_3d,Baseline,RandomForest,0.4812,0.6013,0.4972,0.4737,0.8232
+label_3d,Baseline,GradientBoosting,0.458,0.608,0.478,0.4633,0.8841
+label_3d,Topic Only,LogisticRegression,0.4754,0.6444,0.5,0.4754,1.0
+label_3d,Topic Only,RandomForest,0.4957,0.4528,0.493,0.4675,0.439
+label_3d,Topic Only,GradientBoosting,0.5275,0.5275,0.5288,0.5028,0.5549
+label_3d,Emotion Only,LogisticRegression,0.5246,0.6019,0.5355,0.5,0.7561
+label_3d,Emotion Only,RandomForest,0.4522,0.4553,0.4536,0.4317,0.4817
+label_3d,Emotion Only,GradientBoosting,0.4841,0.4826,0.4851,0.4611,0.5061
+label_3d,Topic + Emotion,LogisticRegression,0.4986,0.5553,0.5061,0.48,0.6585
+label_3d,Topic + Emotion,RandomForest,0.4609,0.4624,0.4621,0.4396,0.4878
+label_3d,Topic + Emotion,GradientBoosting,0.4841,0.4734,0.4842,0.4598,0.4878
+label_5d,Baseline,LogisticRegression,0.5043,0.643,0.5273,0.4873,0.9448
+label_5d,Baseline,RandomForest,0.4928,0.645,0.5179,0.4818,0.9755
+label_5d,Baseline,GradientBoosting,0.4928,0.645,0.5179,0.4818,0.9755
+label_5d,Topic Only,LogisticRegression,0.4725,0.6417,0.5,0.4725,1.0
+label_5d,Topic Only,RandomForest,0.4551,0.5747,0.472,0.4552,0.7791
+label_5d,Topic Only,GradientBoosting,0.4725,0.5646,0.4856,0.4627,0.7239
+label_5d,Emotion Only,LogisticRegression,0.4609,0.6189,0.4852,0.4646,0.9264
+label_5d,Emotion Only,RandomForest,0.5333,0.6282,0.549,0.5037,0.8344
+label_5d,Emotion Only,GradientBoosting,0.5188,0.5677,0.5267,0.4932,0.6687
+label_5d,Topic + Emotion,LogisticRegression,0.4841,0.6044,0.5023,0.4739,0.8344
+label_5d,Topic + Emotion,RandomForest,0.5246,0.6273,0.5414,0.4982,0.8466
+label_5d,Topic + Emotion,GradientBoosting,0.4928,0.5524,0.5016,0.4737,0.6626

@@ -1,0 +1,13 @@
+Experiment,Model,Accuracy,F1,Balanced Accuracy
+Baseline,LogisticRegression,0.4957,0.6081,0.4948
+Baseline,RandomForest,0.5188,0.6244,0.518
+Baseline,GradientBoosting,0.5188,0.6244,0.518
+Topic Only,LogisticRegression,0.4841,0.6496,0.4827
+Topic Only,RandomForest,0.5217,0.5104,0.5218
+Topic Only,GradientBoosting,0.5043,0.4985,0.5044
+Emotion Only,LogisticRegression,0.5101,0.561,0.5098
+Emotion Only,RandomForest,0.4783,0.441,0.4785
+Emotion Only,GradientBoosting,0.4841,0.4573,0.4842
+Topic + Emotion,LogisticRegression,0.5217,0.5553,0.5215
+Topic + Emotion,RandomForest,0.4986,0.4709,0.4987
+Topic + Emotion,GradientBoosting,0.4812,0.4812,0.4812
